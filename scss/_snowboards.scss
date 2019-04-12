@@ -1,0 +1,110 @@
+
+@media(max-width:720px){
+    .snowboards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .snowboards h2{
+        font-size: 28px;
+    }
+    .snowboards_text_top{
+        font-size: 14px;
+        max-width:300px; 
+    }
+    .snowboards_text_botton{
+        width: 100%;
+        text-align: center;
+
+    }
+    .snowboards_thert, .snowboards_prex,
+     .snowboards_next,.snowboards_thert,
+     .snowboards_first{
+        display: none;
+    }
+    .cross_snowboards{
+        display: none;
+    }
+}
+
+
+.snowboards_text_botton{
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.snowboards h2{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.snowboards_text_top{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+@media(min-width:720px){
+    .snowboards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .snowboards div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .snowboards h2{
+        font-size: 48px;
+        text-align: center;
+    }
+    .snowboards_text_top{
+        font-size: 16px;
+        width: 100%;
+    }
+    .snowboards_prex{
+        position: relative;
+        top: 80px;
+        height: 225px;
+        width: auto;
+    }
+    .snowboards_next{
+        position: relative;
+        height: 225px;
+        width: auto;
+        top: 80px;
+
+    }
+    .snowboards_prex{
+        position: absolute;
+        left: 10px;
+        top: 940px;
+    }
+    .snowboards_next{
+        position: absolute;
+        right: 10px;
+        top: 940px;
+    }
+    @media (min-width:1050px){
+        .snowboards{
+            padding: 100px 0;
+        }
+        
+        .snowboards_prex{
+            position: relative;
+            top: 80px;
+            height: 225px;
+            width: auto;
+        }
+        .snowboards_next{
+            position: relative;
+            height: 225px;
+            width: auto;
+            top: 80px;
+    
+        }
+    }
+}

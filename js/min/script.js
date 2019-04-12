@@ -1,0 +1,1 @@
+var e=document.getElementById("header_button_mobile"),s=document.querySelector(".header_menu");e.onclick=function(){e.classList.value?(e.classList.remove("header_button_open_menu"),s.classList.remove("open_menu"),s.classList.add("close_menu")):(e.classList.add("header_button_open_menu"),s.classList.remove("close_menu"),s.classList.add("open_menu"))};

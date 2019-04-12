@@ -1,0 +1,30 @@
+
+
+@Font-face{
+    font-family: 'Myriad Pro';
+    src: url('../font-family/8143.otf');
+}
+
+
+body{
+    padding:  0;
+    margin: auto;
+    font-family: 'Myriad Pro';
+    background-color: rgba(240, 236, 236, 0.623);
+    overflow-x:hidden;
+    max-width: 1920px;
+}
+
+
+@import 'header';
+
+@import 'snowboards';
+
+@import 'textSnowboarding';
+
+@import 'features';
+
+
+@import 'footer';
+
+
